@@ -1,6 +1,7 @@
 //剑指offer：打印1到最大的n位数
 /*note:
 1. 大数；
+not the standard code in 剑指offer，but also good
 */
 #include <stdio.h>
 #include <stdlib.h>
