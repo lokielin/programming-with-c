@@ -5,8 +5,8 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-void NumberOf1Between1AndN(int* num, int length);
-void NumberOf1Between1AndN(int* num, int length)
+void FindGreatestSumOfSubArray(int* num, int length);
+void FindGreatestSumOfSubArray(int* num, int length)
 {
 	int i, temp,sum;
 	if (num == NULL || length <= 0)
@@ -27,6 +27,6 @@ int main()
 {
 	int length = 8;
 	int num[] = { 1,-2,3,10,-4,7,2,-5 };
-	NumberOf1Between1AndN(num,length);
+	FindGreatestSumOfSubArray(num,length);
 	system("pause");
 }
